@@ -1,0 +1,11 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A" parallel="classes">
+    <test name="HomeOfficeSearchTest">
+        <classes>
+            <class name="com.HomeOffice.qa.test.HomeOfficeSearchTest_ff"></class>
+			<class name="com.HomeOffice.qa.test.HomeOfficeSearchTest_chrome"></class>
+        </classes>           
+    </test>    
+     
+</suite>

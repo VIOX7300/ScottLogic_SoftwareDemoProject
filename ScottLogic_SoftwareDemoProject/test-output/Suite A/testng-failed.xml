@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite A]" parallel="classes">
+  <test name="HomeOfficeSearchTest(failed)" parallel="classes">
+    <classes>
+      <class name="com.HomeOffice.qa.test.HomeOfficeSearchTest_chrome">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleSearchTest1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.HomeOffice.qa.test.HomeOfficeSearchTest_chrome -->
+      <class name="com.HomeOffice.qa.test.HomeOfficeSearchTest_ff">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homeOfficeSearchTest2"/>
+        </methods>
+      </class> <!-- com.HomeOffice.qa.test.HomeOfficeSearchTest_ff -->
+    </classes>
+  </test> <!-- HomeOfficeSearchTest(failed) -->
+</suite> <!-- Failed suite [Suite A] -->
